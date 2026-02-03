@@ -1,0 +1,4 @@
+#!/bin/bash
+
+argocd app delete wil-playground -y
+k3d cluster delete mycluster
